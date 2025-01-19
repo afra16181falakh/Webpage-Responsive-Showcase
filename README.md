@@ -5,10 +5,10 @@ This repository includes code for three tasks:
 
 Table of Contents
 
-	•Responsive Webpage
-	•Django Chat Application
-        •AWS Lambda Functions
-	•Deployment
+	•	Responsive Webpage
+	•	Django Chat Application
+	•	AWS Lambda Functions
+	•	Deployment
 
 Responsive Webpage
 
@@ -47,18 +47,21 @@ pip install django channels
 python manage.py migrate
 	4.	Start the server:
 python manage.py runserver
-	5.	Access the app at http://127.0.0.1:8000.
-
+	5.	Access the app at:
+http://127.0.0.1:8000
 
 AWS Lambda Functions
+
 Add Two Numbers
 
 A serverless AWS Lambda function that adds two numbers. It’s triggered by an event and scales automatically based on demand, providing a simple solution for on-demand arithmetic operations without managing servers.
 
 File Upload to S3
+
 A Lambda function that processes file uploads and stores them in an S3 bucket. It’s triggered by events (e.g., file uploads) and automatically handles file storage in S3, offering a serverless, scalable solution for file management.
 
 Deployment
+
 Frontend Hosting
 
 	1.	Host HTML, CSS, and JS files on GitHub Pages or any static hosting service.
