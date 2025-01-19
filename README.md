@@ -5,10 +5,10 @@ This repository includes code for three tasks:
 
 Table of Contents
 
-	•	Responsive Webpage
-	• Django Chat Application
-  • AWS Lambda Functions
-	•	Deployment
+	•Responsive Webpage
+	•Django Chat Application
+        •AWS Lambda Functions
+	•Deployment
 
 Responsive Webpage
 
@@ -59,7 +59,6 @@ File Upload to S3
 A Lambda function that processes file uploads and stores them in an S3 bucket. It’s triggered by events (e.g., file uploads) and automatically handles file storage in S3, offering a serverless, scalable solution for file management.
 
 Deployment
-
 Frontend Hosting
 
 	1.	Host HTML, CSS, and JS files on GitHub Pages or any static hosting service.
